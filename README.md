@@ -1,28 +1,37 @@
 # Kalpana Portfolio — React.js + Material UI
 
-This is a React + MUI conversion of your original HTML/CSS/JavaScript portfolio. It keeps the dark background, blue accent, fixed navigation, typing animation, hero layout, skill cards, project cards, contact form, and footer/social links.
+This is a React + MUI conversion of my portfolio website. It includes a dark background, blue accents, fixed navigation, typing animation, hero section, skill cards, project cards, contact form, and footer/social links.
 
-## Run locally
-1. Install Node.js (if it is not already installed).
+## Run Locally
+
+1. Install Node.js if it is not already installed.
 2. Open this folder in VS Code.
-3. In the terminal run:
+3. In the terminal, run:
 
 ```bash
 npm install
 npm run dev
 ```
 
-4. Open the local URL printed by Vite (usually http://localhost:5173).
+4. Open the local URL printed by Vite.
 
-## Add your existing images
-Copy these image files into the `public` folder:
-- `profile.jpg.jpg` — the profile image referenced by your original HTML
+## Images
+
+Place your portfolio images in the `public` folder:
+
+- `profile.jpg.jpg` — Profile image
 - `project1.jpg` — Weather App image
 - `project2.jpg` — Portfolio project image
 
 If your image filenames differ, update the image paths in `src/App.jsx`.
 
-## Main files
+## Main Files
+
 - `src/App.jsx` — React components and portfolio content
-- `src/styles.css` — styling adapted from your original CSS
-- `src/main.jsx` — React entry point and MUI theme
+- `src/styles.css` — Portfolio styling
+- `src/main.jsx` — React entry point and Material UI theme
+- `package.json` — Project dependencies and scripts
+
+---
+
+Created by **Kalpana** using React.js and Material UI.
