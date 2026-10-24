@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kalpana</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+  <link rel="stylesheet" href="portfolio.css" />
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar">
+  <a href="#home" class="logo">Kalpana</a>
+  <ul class="nav-links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- Hero Section -->
+<section id="home" class="hero">
+  <div class="hero-content">
+    <h1><span class="typed-text"></span><span class="cursor">|</span></h1>
+    <!--<p>Building digital experiences that merge creativity with technology</p>-->
+    <p>Turning ideas into intelligent, scalable, and AI-driven digital solutions.</p>
+<p class="highlight">React.js | Django | Python | LLM & AI Integration</p>
+    <a href="#contact" class="cta-button">Let's Connect</a>
+  </div>
+  <div class="hero-image">
+    <img src="profile.jpg.jpg" alt="Profile" class="profile-img" />
+  </div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills" class="skills">
+</br>
+  <h2>Technical Expertise</h2>
+  <p class="skills-intro">My expertise spans full-stack development and AI integration, enabling me to build scalable web applications, intelligent solutions, and seamless user experiences using modern technologies.</p>
+  
+  <div class="skills-grid">
+    <!-- Frontend Development -->
+    <div class="skill-card">
+      <i class="fas fa-code skill-icon"></i>
+      <h3>Frontend Development</h3>
+      <ul>
+        <li><strong>Languages:</strong> HTML5, CSS3, JavaScript (ES6+)</li>
+        <li><strong>Frameworks:</strong> React.js, Vue.js</li>
+        <li><strong>Styling:</strong> Tailwind CSS, MUI, SCSS</li>
+        <li><strong>Tools:</strong> , Vite, Git, <li><strong>Tools:</strong> , Vite, Git</li></li>
+      </ul>
+    </div>
+
+    <!-- Backend Development -->
+    <div class="skill-card">
+      <i class="fas fa-server skill-icon"></i>
+      <h3>Backend Development</h3>
+      <ul>
+        <li><strong>Languages:</strong> Python, JavaScript (Node.js)</li>
+        <li><strong>Databases:</strong> MongoDB, PostgreSQL, MySQL</li>
+        <li><strong>API:</strong> RESTful APIs</li>
+        <li><strong>Tools:</strong> Postman, PyCharm, Git, GitHub</li>
+      </ul>
+    </div>
+
+    <!-- UI/UX Design -->
+    <div class="skill-card">
+      <i class="fas fa-paint-brush skill-icon"></i>
+      <h3>UI / UX Design</h3>
+      <ul>
+        <li><strong>Design Tools:</strong> Figma, Canva</li>
+        <li><strong>Skills:</strong> Wireframing, Visual Design</li>
+        <!--<li><strong>Research:</strong> User Testing, A/B Testing</li>
+        <li><strong>Collaboration:</strong> Developer handoff, Agile workflows</li>-->
+      </ul>
+    </div>
+
+    <div class="skill-card">
+      <i class="fas fa-brain skill-icon"></i>
+      <h3>AI Technologies</h3>
+      <ul>
+        <li><strong>Design Tools:</strong> Figma, Canva</li>
+        <li><strong>Skills:</strong> Wireframing, Visual Design</li>
+        <!--<li><strong>Research:</strong> User Testing, A/B Testing</li>
+        <li><strong>Collaboration:</strong> Developer handoff, Agile workflows</li>-->
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="projects">
+  <h2>Featured Projects</h2>
+
+  <div class="project-grid">
+
+    <!-- Pneumonia Detection Project -->
+    <div class="project-card">
+      <img src="project1.jpg" alt="Explainable Pneumonia Detection Project" />
+
+      <div class="project-info">
+        <h3>Explainable Pneumonia Detection</h3>
+        <p>
+          An explainable deep learning framework for automated pneumonia
+          detection and risk assessment from chest X-ray images.
+        </p>
+        <a
+          href="https://github.com/KalpanaJayapaul/explainable-pneumonia-detection"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View Project
+        </a>
+      </div>
+    </div>
+
+    <!-- AI Visually Impaired Tool -->
+    <div class="project-card">
+      <img src="project2.jpg" alt="AI Visually Impaired Assistance Tool" />
+
+      <div class="project-info">
+        <h3>AI Visually Impaired Tool</h3>
+        <p>
+          An AI-powered tool designed to assist visually impaired people
+          in understanding and interacting with their surroundings.
+        </p>
+        <a
+          href="https://github.com/KalpanaJayapaul/ai-visually-impaired-tool"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View Project
+        </a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="contact">
+  <h2>Contact Me</h2>
+  <form id="contact-form">
+    <input type="text" name="name" placeholder="Your Name" required />
+    <input type="email" name="email" placeholder="Your Email" required />
+    <textarea name="message" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>© <span id="year"></span> Kalpana. All rights reserved.</p>
+  <div class="social-links">
+    <a href="https://github.com/KalpanaJayapaul"><i class="fab fa-github"></i></a>
+    <a href="#"><i class="fab fa-instagram"></i></a>
+    <a href="#"><i class="fab fa-whatsapp"></i></a>
+    <a href="https://www.linkedin.com/in/kalpana-j-1370912bb"><i class="fab fa-linkedin"></i></a>
+  </div>
+</footer>
+
+<script src="portfolio.js"></script>
+</body>
+</html>
